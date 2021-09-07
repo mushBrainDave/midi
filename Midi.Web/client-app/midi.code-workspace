@@ -1,0 +1,66 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/node_modules": true,
+            "bin/": true,
+            "obj/": true,
+            "build/": true,
+            "Properties": true,
+            ".jest-test-results.json": true,
+            ".storybook/.jest-test-results.json": true
+        },
+        "typescript.preferences.importModuleSpecifier": "non-relative",
+        "javascript.preferences.importModuleSpecifier": "non-relative",
+        "typescript.tsdk": "node_modules\\typescript\\lib",
+        "editor.detectIndentation": false,
+        "editor.formatOnSave": true,
+        "javascript.preferences.quoteStyle": "double",
+        "typescript.preferences.quoteStyle": "double",
+        "typescript.enablePromptUseWorkspaceTsdk": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+        "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderMedium}${separator}${rootName}",
+        "gitlens.codeLens.enabled": false,
+        "git-graph.repository.onlyFollowFirstParent": true,
+        "editor.rulers": [100],
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "typescript.format.semicolons": "ignore",
+        "[typescriptreact]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[typescript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascriptreact]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+		"[json]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "bang.antd-snippets",
+            "msjsdiag.debugger-for-chrome",
+            "aaron-bond.better-comments",
+            "quicktype.quicktype",
+            "dbaeumer.vscode-eslint",
+            "eamodio.gitlens",
+            "mhutchie.git-graph",
+            "esbenp.prettier-vscode",
+            "gkotas.restore-git-branch-tabs",
+            "christian-kohler.npm-intellisense",
+            "vscode-icons-team.vscode-icons"
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+build
+bin
+node_modules
+obj
+package-lock.json
+
+clients.app/build
+clients.app/bin
+clients.app/node_modules
+clients.app/obj
+clients.app/package-lock.json
+
+*.csproj
+*.hbs
