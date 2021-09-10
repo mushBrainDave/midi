@@ -14,6 +14,7 @@ namespace Midi.Core.Interfaces.DataAccessHandlers
         T GetById(int id);
         IEnumerable<T> GetByIds(IEnumerable<int> ids);
         T First(Expression<Func<T, bool>> where);
+        T FirstOrDefault(Expression<Func<T, bool>> where);
         bool Contains(T entity);
         bool Contains(Expression<Func<T, bool>> where);
         long Count();

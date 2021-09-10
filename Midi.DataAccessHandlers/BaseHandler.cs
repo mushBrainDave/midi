@@ -56,6 +56,11 @@ namespace Midi.DataAccessHandlers
             return _dbSet.First(where);
         }
 
+        public T FirstOrDefault(Expression<Func<T, bool>> where)
+        {
+            return _dbSet.FirstOrDefault(where);
+        }
+
         public IEnumerable<T> Get(Expression<Func<T, bool>> where)
         {
             return _dbSet.Where(where).ToList();
